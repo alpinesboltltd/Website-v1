@@ -43,8 +43,9 @@ body{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .ml-auto{
-    margin-right: 60px;
+    /*margin-right: 60px;*/
 }
+
 .logo{
     /*margin-left: 120px; */
     display: flex;
@@ -81,5 +82,6 @@ body{
 }
 
 .logo img{
-    width: 130px;
+    width: 40px;
+    
 }

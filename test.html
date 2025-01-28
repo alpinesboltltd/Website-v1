@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Transparent Arrow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #333; /* Navbar background color */
+            overflow: hidden;
+        }
+
+        .nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-item {
+            float: left;
+            position: relative; /* Needed for absolute positioning of the arrow */
+        }
+
+        .nav-item a {
+            display: block;
+            color: white; /* Text color */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            position: relative; /* Position for the arrow */
+        }
+
+        .nav-item a:hover {
+            background-color: #111; /* Background color on hover */
+        }
+
+        .arrow {
+            content: '';
+            position: absolute;
+            right: -15px; /* Position of the arrow */
+            top: 50%;
+            transform: translateY(-50%) rotate(0deg); /* Center the arrow vertically */
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent; /* Left side of the arrow */
+            border-right: 10px solid transparent; /* Right side of the arrow */
+            border-top: 10px solid white; /* Color of the arrow */
+            transition: transform 0.3s ease; /* Animation */
+        }
+
+        .nav-item a:hover .arrow {
+            transform: translateY(-50%) rotate(180deg); /* Rotate to face up on hover */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="#">Menu <span class="arrow"></span></a>
+        </li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

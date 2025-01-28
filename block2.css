@@ -1,0 +1,38 @@
+.block-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: px solid #0b2f1f;
+    background-color: rgb(245, 246, 247);
+    border-radius: 5px;
+}
+.block2-text{
+}
+.block2-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 90px;
+}
+
+.img1{
+    height: 430px;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+.img2{
+    height: 400px;
+    margin-left: -330px;
+    margin-top: 55px;
+}
+
+.img3{
+    height: 60px;
+    margin-top: 195px;
+    margin-left: -350px;
+}
+.dot{
+    margin-top: 195px;
+    margin-left: 262px;
+}

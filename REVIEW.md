@@ -1,6 +1,6 @@
-Here's a code review in markdown:
-
 # Code Review
+
+_Mr. Victor_
 
 ## Positives
 
@@ -52,3 +52,13 @@ Here's a code review in markdown:
    - Update README.md to clearly describe the project structure
    - Document the purpose of each HTML file
    - Include setup and maintenance instructions if necessary
+
+# Code Review
+
+### Mr. Gabriel
+
+_Incomplete_
+
+--About page is not complete
+--The content of the page is not complete
+--There are two conflicting navigations

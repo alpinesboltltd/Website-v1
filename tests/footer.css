@@ -1,0 +1,104 @@
+
+.gap-x{
+    padding: 0 50px;
+}
+
+.logof{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logof img{
+    width: 55px;
+    
+}
+.Alpinef{
+    color: #0b2f1f;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.footer-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-list li a{
+    text-decoration: none;
+    color: #0b2f1f;
+}
+.footer-list li{
+    margin-top: 12px;
+}
+.footer21{
+    display: flex;
+    flex-direction: column;
+}
+
+.socials{
+    display: flex;
+    gap: 15px;
+    margin-top: 22px;
+}
+    
+.socials img {
+    width: 26px; /* Change to desired size */
+    height: 26px; /* Maintain aspect ratio */
+    transition: transform 0.2s;
+}
+
+.socials img:hover {
+    transform: scale(1.4);
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer3{
+    padding-top: 50px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+.address p{
+    color: #0b2f1f;
+    text-align: end;
+    font-size: 17px;
+    font-weight:530;
+    line-height: 22px;
+}
+.footer3 p {
+    text-align: center;
+    color: #0b2f1f;
+}
+.footer3 p a {
+    color: #0b2f1f;
+}
+
+.footer21 a{
+    color: #0b2f1f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

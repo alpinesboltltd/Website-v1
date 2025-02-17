@@ -38,3 +38,14 @@
     color: white;
     font-weight: 500;
 }
+
+.col9{
+    background-image:url(alpinebolt.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}

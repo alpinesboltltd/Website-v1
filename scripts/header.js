@@ -1,10 +1,10 @@
-export function headHtml(){ 
-    return `<section class="header-wrapper">
+export function headHtml() {
+  return `<section class="header-wrapper">
             <div class="header gap-x">
                 <nav class="navbar navbar-expand-lg">
                     <!-- Brand -->
                     <div class="logo">
-                        <img src="/images/alpinebolt.png" class="">
+                        <img src="/public/logo2.svg" class="">
                         <a href="#" class="Alpine">ALPINESBOLT</a>
                     </div>
                     <!-- Toggler/collapsibe Button -->
@@ -22,10 +22,8 @@ export function headHtml(){
                             <li class="nav-item">
                                 <a class="nav-link hov" href="#">Products</a>
                                 <div class="product">
-                                    <a href="">Product1</a>
-                                    <a href="">Product2</a>
-                                    <a href="">Product3</a>
-                                    <a href="">Product4</a>
+                                    <a href="">Finbolt Lab</a>
+                                    // 
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -63,7 +61,7 @@ export function headHtml(){
                 </nav>
             </div>
         </section>
-    `
+    `;
 }
 
 document.querySelector(".header").innerHTML = headHtml();

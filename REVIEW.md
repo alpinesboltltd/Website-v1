@@ -62,3 +62,16 @@ _Incomplete_
 --About page is not complete
 --The content of the page is not complete
 --There are two conflicting navigations
+
+# Code Review
+
+![image](./public/logo1.svg)
+![image](./public/logo2.svg)
+![image](./public/logo3.svg)
+![image](./public/logo4.svg)
+
+are the logos for the company
+
+- color codes are now in a color.css file
+- use bootstrap classes for styling and custom css where needed
+- the header is not complete

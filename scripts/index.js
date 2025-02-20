@@ -1,6 +1,6 @@
-import { footer } from "./footer.js";
-import { headHtml } from "./header.js";
+import { footers } from "./footers.js";
+import { headHtml } from "./headers.js";
 
 headHtml();
 
-footer();
+footers();

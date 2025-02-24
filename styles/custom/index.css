@@ -361,7 +361,7 @@ body {
   }
 }
 
-/* Section 4 */
+/* Mission and Vision */
 .block-4 {
   display: flex;
   justify-content: center;
@@ -378,6 +378,7 @@ body {
   margin: 30px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .mission h3,
 .vision h3 {
   text-align: center;

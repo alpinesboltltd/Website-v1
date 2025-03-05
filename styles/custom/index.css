@@ -89,9 +89,10 @@ body {
 }
 .Alpine {
   color: var(--primary-color);
-  margin-top: 25px;
+  margin-top: 10px;
   font-size: 1.5rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
 }
 
 /* nav sub items styling */
@@ -133,12 +134,68 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+@media only screen and (max-width:960px) {
+  .logo img{
+    width: 70px;
+  }
+  .Alpine{
+    margin-top: 5px;
+    text-decoration: none;
+  }
+  .logo{
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+  
+  .navbar-nav{
+    transition: all 0.5s ease;
+    margin-left: 0px;
+    width: auto;
+    margin-top: 15.5px;
+    background: var(--tertiary-color);
+    padding: 30px 0;
+  }
+
+  .nav-item a{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-block: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .product {
+    opacity: 0;
+    /*display: none;*/
+  
+    z-index: 1;
+    margin-top: -30px;
+    width: 180px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    
+    background-color: var(--tertiary-color);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}
+
 /* section 2 styling */
 
 .block-2 {
   display: flex;
   flex-direction: row;
-  border-radius: 5px;
   position: relative;
   top: 100px;
 }
@@ -220,6 +277,50 @@ body {
   text-decoration: none;
 }
 
+@media only screen and (max-width:960px) {
+  .block2-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: none;
+  }
+  .block-2 {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    margin-top: -40px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 90px; */
+    /* position: absolute; */
+  }
+  .block2-text h1 {
+    text-align: center;
+  }
+  .block2-text p {
+    text-align: center;
+  }
+  .iphone, .Android {
+    width: auto;
+  }
+  .download-app {
+    justify-content: center;
+}
+  .block2-img {
+    margin-top: 400px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    margin-left: -400px;
+    position: relative;
+  }
+}
+
 /* section 3 */
 .block-3 {
   display: flex;
@@ -249,7 +350,18 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* Section 4 */
+@media only screen and (max-width:960px) {
+  .block-3 h1 {
+    color: var(--primary-color);
+    padding: 0px 0px;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: "GT Eesti", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+}
+
+/* Mission and Vision */
 .block-4 {
   display: flex;
   justify-content: center;
@@ -266,6 +378,7 @@ body {
   margin: 30px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .mission h3,
 .vision h3 {
   text-align: center;
@@ -283,6 +396,23 @@ body {
   margin-top: 30px;
   color: var(--primary-color);
 }
+
+@media only screen and (max-width:960px){
+  .block-4 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+
+  .mission, .vision {
+    width: auto;
+    
+    position: relative;
+  }
+}
+
 /* Section 5 */
 
 .block-5 {
@@ -291,6 +421,7 @@ body {
   position: absolute;
   background-color: var(--primary-color);
   margin-top: 80px;
+  width: auto;
 }
 
 .content5 {
@@ -315,17 +446,33 @@ body {
   background-color: var(--secondary-color);
   width: 100%;
   position: relative;
-  padding-right: 100px;
+  padding-right: 150px;
 }
 .block5-img img {
   width: 350px;
-  margin-left: 160px;
+  margin-left: 150px;
+  margin-top: 60px;
 }
 .link5 {
   color: var(--secondary-color);
   font-weight: 500;
 }
 
+@media only screen and (max-width:960px){
+  .block-5{
+    flex-direction: column;
+  }
+
+  .block5-img {
+    padding-right: 0px;
+    height: 320px;
+  }
+  .block5-img img {
+    width: 350px;
+    margin-left: 140px;
+    margin-top: 50px;
+    }
+}
 /* Footer Section */
 
 .logof {
@@ -430,4 +577,25 @@ body {
   color: var(--primary-color);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+@media only screen and (max-width:960px){
+  .footer-main {
+    margin-top: 800px;
+  }
+  .footer2 {
+    justify-content: center;
+  }
+  .footer21 {
+    margin: 0 22px;
+  }
+  .socials {
+    margin-right: 15px;
+  }
+  .address {
+    margin-top: 20px;
+  }
+  .footer1 {
+    justify-content: center;
+  }
 }

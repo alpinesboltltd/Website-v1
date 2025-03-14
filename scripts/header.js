@@ -51,10 +51,7 @@ export function headHtml() {
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                                <div class="contact">
-                                    
-                                </div>
+                                <a class="nav-link" href="../src/contactus.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>

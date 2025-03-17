@@ -48,7 +48,7 @@ export function footer(){
                 <div class="container footer2">
                     <div class="footer21">
                         <div class="logof">
-                            <img src="public/logo2.svg" class="">
+                            <img src="./public/logo2.svg" class="">
                             <a href="#" class="Alpinef">ALPINESBOLT</a>
                         </div>
                         <a href="">Sitemap</a>

@@ -48,23 +48,23 @@ export function footer(){
                 <div class="container footer2">
                     <div class="footer21">
                         <div class="logof">
-                            <img src="/public/logo2.svg" class="">
+                            <img src="public/logo2.svg" class="">
                             <a href="#" class="Alpinef">ALPINESBOLT</a>
                         </div>
                         <a href="">Sitemap</a>
                     </div>
                     <div class="socials">
                         <a href="" target="_blank">
-                            <img src="/fontawesome-free-6.7.2-desktop/svgs/brands/facebook.svg" alt="Facebook">
+                            <img src="fontawesome-free-6.7.2-desktop/svgs/brands/facebook.svg" alt="Facebook">
                         </a>
                         <a href="" target="_blank">
-                            <img src="/fontawesome-free-6.7.2-desktop/svgs/brands/twitter.svg" alt="twitter">
+                            <img src="fontawesome-free-6.7.2-desktop/svgs/brands/twitter.svg" alt="twitter">
                         </a>
                         <a href="" target="_blank">
-                            <img src="/fontawesome-free-6.7.2-desktop/svgs/brands/instagram.svg" alt="instagram" />
+                            <img src="fontawesome-free-6.7.2-desktop/svgs/brands/instagram.svg" alt="instagram" />
                         </a>
                         <a href="" target="_blank">
-                            <img src="/fontawesome-free-6.7.2-desktop/svgs/brands/youtube.svg" alt="youtube" />
+                            <img src="fontawesome-free-6.7.2-desktop/svgs/brands/youtube.svg" alt="youtube" />
                         </a>
                     </div>
                     <div class="address">

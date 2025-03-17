@@ -4,7 +4,7 @@ export function headHtml() {
                 <nav class="navbar navbar-expand-lg">
                     <!-- Brand -->
                     <div class="logo">
-                        <img src="/public/logo2.svg" class="">
+                        <img src="public/logo2.svg" class="">
                         <a href="#" class="Alpine">ALPINESBOLT</a>
                     </div>
                     <!-- Toggler/collapsibe Button -->
